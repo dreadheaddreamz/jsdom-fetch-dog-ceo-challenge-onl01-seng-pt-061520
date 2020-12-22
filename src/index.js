@@ -6,6 +6,7 @@ document.addeventListener("DOMCOntentLoaded", () => {
     dropDown.addeventListener('change', (e) => {
       let breedChildren = document.querySelector('#dog-breeds').children
       let breedsArray = [...breedChildren]
-      console.log()
+      console.log(`${breedsArray[0].innerText.charAt(0)}`)
+      breedsArray.fir
     })
 }
