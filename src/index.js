@@ -8,7 +8,11 @@ document.addeventListener("DOMCOntentLoaded", () => {
       let breedsArray = [...breedChildren]
       console.log(`${breedsArray[0].innerText.charAt(0)}`)
       breedsArray.forEach(breed => {
-        if 
-      })
+        if (breed.innerText.charAt(0) === e.target.value) {
+                    breed.style.display = null
+                } else {
+                    breed.style.display = 'none'
+                }
+            })
+        })
     })
-}
