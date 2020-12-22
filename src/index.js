@@ -7,6 +7,8 @@ document.addeventListener("DOMCOntentLoaded", () => {
       let breedChildren = document.querySelector('#dog-breeds').children
       let breedsArray = [...breedChildren]
       console.log(`${breedsArray[0].innerText.charAt(0)}`)
-      breedsArray.fir
+      breedsArray.forEach(breed => {
+        if 
+      })
     })
 }
